@@ -55,3 +55,5 @@
 [user]
 	email = amoriarty5@gmail.com
 	name = Robin Moriarty
+[merge]
+	tool = vimdiff
