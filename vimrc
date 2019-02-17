@@ -23,3 +23,8 @@ set noerrorbells
 set showmode
 " Show the (partial) command as it’s being typed"
 set showcmd
+" Make comments continue on new lines, basically for function header comments"
+set formatoptions=tcroql
+" Let me open read-only new tabs using :tabv"
+cabbrev tabv tab sview +setlocal\ nomodifiable
+
