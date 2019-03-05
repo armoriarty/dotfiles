@@ -81,7 +81,10 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+
+# Personal aliases to deal with WSL nonsense. You should not copy these they will be useless.
 alias win='cd /mnt/c/Users/rmoriart/Desktop'
+alias poe='cd "/mnt/c/Users/rmoriart/Desktop/Class Files/0. 2019 Winter/CS 222 Data Structures/Projects"'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
