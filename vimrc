@@ -28,3 +28,23 @@ set formatoptions=tcroql
 " Let me open read-only new tabs using :tabv"
 cabbrev tabv tab sview +setlocal\ nomodifiable
 
+"set file encoding
+set encoding=utf-8
+set fileencoding=utf-8
+
+"set indent options
+set expandtab
+set smarttab
+" 1 tab is 4 spaces
+set shiftwidth=4
+set tabstop=4
+set ai "auto indent
+set si "smart indent
+
+
+"dont use arrowkeys
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+ 
