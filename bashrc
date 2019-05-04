@@ -2,6 +2,12 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+# Allows you to cd into directory without cd
+shopt -s autocd
+
+# This may stop the highlighting of directories in the WSL
+LS_COLORS=$LS_COLORS:'ow=1;34:' ; export LS_COLORS 
+
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
 

@@ -2,11 +2,8 @@
 set nocompatible
 
 set nu " number lines"
-set rnu " relative line numbering"
 " Enable syntax highlighting"
 syntax on
-" Highlight current line"
-set cursorline
 " Make tabs as wide as two spaces"
 set tabstop=4
 " Highlight searches"
