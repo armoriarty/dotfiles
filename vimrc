@@ -1,6 +1,9 @@
 "Make Vim More useful"
 set nocompatible
 
+" Enhance command-line completion
+set wildmenu
+
 set nu " number lines"
 " Enable syntax highlighting"
 syntax on
