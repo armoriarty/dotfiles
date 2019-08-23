@@ -1,43 +1,28 @@
 #!/usr/bin/env bash
 
-packages=(
-# Programming Tools
-    # C/C++
-    clang
-    gcc
-    gdb
-    valgrind
-    #Scripting languages
-    ruby
-    python
-    scm
-    # javascript
-    nodejs
-    #Java/Closure
-    default-jdk
-    openjdk-11-jre
-    leiningen
-    ant
-    groovy
-    gradle
-    # Editor
-    vim
-    #Developer tools
-    git
-    tmux
-    curl
-# General Applications
-    firefox
-    mpv
-    vrms
-    # General Quality of life
-    ubuntu-restricted-extras
-    htop
-    neofetch
-    screenfetch
-)
-
-for i in "${packages[@]}"
-    do  
-        sudo apt install -y $i
-    done
+sudo apt install clang \
+    gcc \
+    gdb \
+    valgrind \
+    ruby \
+    python \
+    scm \
+    nodejs \
+    default-jdk \
+    openjdk-11-jre \
+    leiningen \
+    ant \
+    groovy \
+    gradle \
+    vim \
+    git \
+    tmux \
+    curl \
+    vrms \
+    htop \
+    neofetch \
+    screenfetch \
+#   Full linux applications
+    #mpv \
+    #firefox \
+    #ubuntu-restricted-extras \

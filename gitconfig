@@ -11,6 +11,7 @@
 
 	# List contributors with number of commits
 	contributors = shortlog --summary --numbered
+	d = difftool
 
 [apply]
 
@@ -57,3 +58,7 @@
 	name = Robin Moriarty
 [merge]
 	tool = vimdiff
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
