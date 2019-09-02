@@ -9,7 +9,6 @@ sudo apt install clang \
     scm \
     nodejs \
     default-jdk \
-    openjdk-11-jre \
     leiningen \
     ant \
     groovy \
@@ -22,6 +21,7 @@ sudo apt install clang \
     htop \
     neofetch \
     screenfetch \
+    cmus \
 #   Full linux applications
     #mpv \
     #firefox \
