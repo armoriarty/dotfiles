@@ -54,8 +54,8 @@
 	changed = green
 	untracked = cyan
 [user]
-	email = amoriarty5@gmail.com
-	name = Robin Moriarty
+	email = 19686802+armoriarty@users.noreply.github.com
+	name = Albert Robin Moriarty
 [merge]
 	tool = vimdiff
 [diff]
