@@ -26,3 +26,4 @@ sudo apt install clang \
     #mpv \
     #firefox \
     #ubuntu-restricted-extras \
+    #speedcrunch \   
