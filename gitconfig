@@ -62,3 +62,5 @@
 	tool = vimdiff
 [difftool]
 	prompt = false
+[commit]
+	template = /home/rmoriart/.git_commit_template.txt
