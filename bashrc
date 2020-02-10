@@ -114,4 +114,4 @@ fi
 
 export PS1="\[\e[0;33m\]\u\[\e[0m\]@\[\e[35m\]\h \[\e[32m\]\w >\[$(tput sgr0)\] "
 
-cd ~
+#cd ~
