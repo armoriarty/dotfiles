@@ -4,6 +4,7 @@ BASEDIR=$(dirname $0)
 cd $BASEDIR
 
 pushd ~/
+cd .config
 rm .bashrc .vimrc .gitignore .gitconfig
 popd
 
