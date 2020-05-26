@@ -4,8 +4,7 @@ BASEDIR=$(dirname $0)
 cd $BASEDIR
 
 pushd ~/
-cd .config
-rm .bashrc .vimrc .gitignore .gitconfig
+rm -f .bashrc .vimrc .gitignore .gitconfig .tmux.conf .git_commit_template.txt
 popd
 
 ln -s ${PWD}/bashrc ~/.bashrc

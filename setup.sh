@@ -21,7 +21,7 @@ sudo apt install clang \
     htop \
     neofetch \
     screenfetch \
-    cmus \
+#   cmus \
 #   Full linux applications
     #mpv \
     #firefox \
