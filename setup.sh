@@ -2,6 +2,7 @@
 
 sudo apt install clang \
     gcc \
+    coreutils \
     gdb \
     valgrind \
     ruby \
@@ -21,8 +22,9 @@ sudo apt install clang \
     htop \
     neofetch \
     screenfetch \
-#   cmus \
+    ghc \
 #   Full linux applications
+#   cmus \
     #mpv \
     #firefox \
     #ubuntu-restricted-extras \
