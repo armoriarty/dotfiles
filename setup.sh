@@ -18,6 +18,8 @@ sudo apt install clang \
     git \
     tmux \
     curl \
+    wget \
+    tree \
     vrms \
     htop \
     neofetch \
