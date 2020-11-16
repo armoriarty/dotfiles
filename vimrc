@@ -17,7 +17,7 @@ set ignorecase
 set incsearch
 
 " Disable error bells"
-set noerrorbells
+set noeb vb t_vb=
 
 " Show the current mode"
 set showmode
