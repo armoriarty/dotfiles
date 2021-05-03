@@ -1,12 +1,12 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 sudo apt install clang \
-    gcc \
     coreutils \
+    gcc \ # Programming
     gdb \
     valgrind \
     ruby \
-    python \
+    python3 \
     scm \
     nodejs \
     default-jdk \
@@ -14,7 +14,8 @@ sudo apt install clang \
     ant \
     groovy \
     gradle \
-    vim \
+    ghc \
+    vim \ # Basic Utilities
     git \
     tmux \
     curl \
@@ -24,10 +25,10 @@ sudo apt install clang \
     htop \
     neofetch \
     screenfetch \
-    ghc \
-#   Full linux applications
-#   cmus \
-    #mpv \
-    #firefox \
-    #ubuntu-restricted-extras \
-    #speedcrunch \   
+#   cmus \ # Full Linux Applications
+#   mpv \
+#   youtube-dl \
+#   transmission \
+#   firefox \
+#   ubuntu-restricted-extras \
+#   speedcrunch \   
